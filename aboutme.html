@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kMVqkVkrp86eSO8d5o0h3a1O5pPT2Ba6wSd8YtE5xgKZR5Epr5YdX7Io1I4XvJ2so2WZv6sPtIMUw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0ffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header .logo {
+            font-weight: 600;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+        }
+        header .logo i {
+            margin-right: 10px;
+        }
+        header .contact-info, header .social-icons {
+            display: flex;
+            align-items: center;
+        }
+        header .contact-info span, header .social-icons a {
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: azure;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+            background: url('image/aboutheader.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .hero h1 {
+            font-size: 3em;
+            color: white;
+            animation: fadeIn 2s ease-in;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: white;
+            animation: fadeIn 2s ease-in 1s;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-out;
+        }
+        .section h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .section p {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.6em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-user"></i> My Website
+        </div>
+        <div class="contact-info">
+            <span>📞 +6011-6368-6713</span>
+            <span>✉️ harizitexpert@gmail.com</span>
+        </div>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="education.html">Educational Background</a>
+        <a href="interest.html">Interest</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div class="hero">
+        <div>
+            <h1>About Me</h1>
+            <p>Learn more about Hariz</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2><center>Introduction</center></h2>
+            <p><center>Assalamualaikum and hello! My name is Muhammad Hariz Bin Md Fazli, and I’m thrilled to welcome you to my personal website. Here, you’ll find everything about me—from my hobbies and background to my skills and much more. I’ve designed this website as a way to connect with people, share my experiences, and showcase what I’m passionate about.</p> 
+            <p>Take your time to explore, and don’t hesitate to reach out if there’s something you’d like to discuss or if you simply want to connect. Thank you for visiting, and I hope you enjoy learning more about me as much as I enjoy sharing my story with you!</center></p>
+        </div>
+        <div class="section">
+            <center><h2>Background</h2>
+            <p>I was born in Hospital Taiping and spent my early years growing up in the serene town of Bandar Baharu, Kedah. As the second of three siblings, my upbringing was filled with shared memories and valuable life lessons within a close-knit family. I currently reside in Taman Desa Mutiara, located in Parit Nibong, Kedah—a place that has become my home and a source of comfort.</p>
+            <p>My educational journey led me to UiTM Kedah, where I built a solid foundation in my field of study. During my time there, I had the opportunity to participate in a variety of activities that enriched my academic experience and contributed significantly to my personal growth. It was also a time of discovery, as I gained knowledge and skills I never imagined learning before stepping into this institution. These experiences have shaped me into the person I am today and continue to inspire me to strive for excellence in all that I do.</p></center>
+        </div>
+        <div class="section">
+            <center><h2>Hobbies and Interests</h2>
+            <p>In my free time, I enjoy immersing myself in various forms of entertainment that spark creativity and relaxation. Playing games on both mobile and PC is one of my favorite pastimes, as it allows me to connect with others in vibrant virtual worlds. I am also a passionate anime enthusiast, drawn to its captivating stories and visually stunning artistry. Alongside this, I love delving into manga and novels, where I can lose myself in imaginative narratives and explore different perspectives. These hobbies not only provide me with enjoyment but also inspire me with their creativity and depth.</p></center>
+            <div class="gallery">
+                <img src="image/steam_ss1.png" alt="Gallery Image 1">
+                <img src="image/steam_ss2.jpg" alt="Gallery Image 2">
+                <img src="image/steam_ss3.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+        <div class="section">
+            <center><h2>Skills</h2>
+            <p>I have developed a diverse set of skills over the years, including:</p>
+            <ul>
+                <li>Project Management</li>
+                <li>Web Development</li>
+                <li>Team Leadership</li>
+                <li>Public Speaking</li>
+            </ul>
+            <p>I am always eager to learn new things and take on new challenges. My goal is to continuously improve myself and contribute positively to any team or project I am a part of.</p></center>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hariz. All rights reserved.</p>
+    </footer>
+</body>
+</html
